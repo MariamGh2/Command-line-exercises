@@ -3,10 +3,15 @@ IMPORTANT: Do ALL exercises inside ~/cli_sandbox to avoid changing important fil
 2) cd ~/cli_sandbox
 
 1: Write something in a file called "difficulty.txt".
+touch difficulty
+echo "Hej" > difficulty.txt 
 
 2: Create a file called "pioneer.txt" and immediately delete it.
+touch pioneer.txt
+rm pioneer.txt
 
 3: Move one level up (stay inside "cli_sandbox").
+cd ..
 
 4: Open a file in the terminal and see the content.
 
