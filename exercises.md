@@ -4,11 +4,12 @@ IMPORTANT: Do ALL exercises inside ~/cli_sandbox to avoid changing important fil
 
 1: Write something in a file called "difficulty.txt".
 touch difficulty
-echo "Hej" > difficulty.txt 
+echo "Hej" > dif
+ficulty.txt 
 
 2: Create a file called "pioneer.txt" and immediately delete it.
 touch pioneer.txt
-rm pioneer.txt
+rm pioneer.tx
 
 3: Move one level up (stay inside "cli_sandbox").
 cd ..
@@ -23,12 +24,27 @@ echo "ditch degree depression beat terminal" > beat.txt
 grep -rn "beat2 .
 
 6: Create a file called "discover.txt" containing these words (one per line): "ethics needle ethics bay ethics". Then count the lines.
+nano discover.txt
+(skriv ordene)
+CTRL + X
+Y
+ENTER
+wc -l discover.txt
 
 7: Output what's in the directory.
+ls
 
 8: Create a file "nerve.txt" containing: "depression proportion depression shot depression". Then output the sorted lines.
+nano nerve.txt
+(skriv ordene)
+CTRL + X
+Y
+ENTER
+sort nerve.txt
 
 9: Create a file called "pen.txt" and immediately delete it.
+touch pen.txt
+rm pen.tx
 
 10: Create two directories "proportion" and "appreciate" and move into "appreciate".
 
