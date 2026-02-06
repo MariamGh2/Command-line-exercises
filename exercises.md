@@ -14,8 +14,13 @@ rm pioneer.txt
 cd ..
 
 4: Open a file in the terminal and see the content.
+open (filename)
+cat (filename
 
 5: Create a file "beat.txt" containing: "ditch degree depression beat terminal". Then search recursively for "beat".
+touch beat.txt
+echo "ditch degree depression beat terminal" > beat.txt
+grep -rn "beat2 .
 
 6: Create a file called "discover.txt" containing these words (one per line): "ethics needle ethics bay ethics". Then count the lines.
 
