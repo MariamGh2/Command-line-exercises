@@ -47,8 +47,11 @@ touch pen.txt
 rm pen.tx
 
 10: Create two directories "proportion" and "appreciate" and move into "appreciate".
+mkdir proportion aprreciate
+cd appreciate
 
 11: Create a folder named "cli_sandbox".
+
 
 12: Create a file "difficulty.txt" containing: "appreciate recommend evaluate difficulty terminal". Then search recursively for "difficulty".
 
