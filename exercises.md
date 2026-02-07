@@ -51,33 +51,55 @@ mkdir proportion aprreciate
 cd appreciate
 
 11: Create a folder named "cli_sandbox".
-
+mkdir cli_sandbox
 
 12: Create a file "difficulty.txt" containing: "appreciate recommend evaluate difficulty terminal". Then search recursively for "difficulty".
+touch difficulty.txt
+echo appreciate recommend evaluate difficulty terminal > difficulty.txt
+grep -rn "difficulty"
 
 13: Output the full path you are on.
+pwd
 
 14: Use: echo "pray on advice recommend experienced" > "honor.txt" to create or overwrite "honor.txt".
+echo pray on advice recommend experienced > honor.txt
 
 15: Output the full path you are on.
+pwd
 
 16: Output the full path you are on.
+pwd
 
 17: Use: echo "proportion regret panel rain ethics" > "on.txt" to create or overwrite "on.txt".
+echo proportion regret panel rain ethics > on.txt
 
 18: Create a file "nerve.txt" containing: "sister recession sister rain sister". Then output the sorted lines.
+echo "sister recession sister rain sister" > nerve.txt
+sort nerve.txt
 
-19: Move one level up (stay inside "cli_sandbox").
+19: Move one level up (stay inside "cli_sandbox")
+cd ..
 
 20: If already inside "cli_sandbox", create a directory "salvation" and move into the directory.
+mkdir salvation
+cd salvation 
 
 21: Change directory to "cli_sandbox".
+cd ..
 
 22: Create a file called "relative.txt".
+touch relative.txt
 
 23: Create a file called "shallow.txt" containing these words (one per line): "rain ethics rain relative rain". Then count the lines.
+nano shallow.txt
+(skriv ordene)
+CTRL + X
+Y
+ENTER
+wc -l shallow.txt
 
 24: Open a file in the terminal and see the content.
+cat (filename)
 
 25: Move two folders up (but never leave "cli_sandbox").
 
